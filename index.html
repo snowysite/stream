@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/613c0941cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-left">
+      <img class="logo" src="images/pythonbay-logo.png">
+      <ul>
+        <li><img src="images/iconmonstr-bell-thin-32 (1).png" alt=""></li>
+        <li><img src="images/iconmonstr-mail-thin-24.png" alt=""></li>
+        <li><img src="images/iconmonstr-television-4-32.png" alt=""></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <div class="search-box">
+        <img src="images/iconmonstr-magnifier-lined-24.png" alt="">
+        <input type="text" placeholder="search">
+
+      </div>
+      <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+        <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" alt="">
+      </div>
+    </div>
+    <!-- settings menu -->
+
+    <div class="setting-menu">
+
+
+      <div id="dark-btn">
+          <span></span>
+      </div>
+
+
+
+
+      <div class="setting-menu-inner">
+
+        <div class="user-profile">
+          <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+          <div>
+            <p>Akalwu Emmanuel</p>
+            <a href="#"> See your profile</a>
+          </div>
+        </div>
+        <hr>
+        <div class="user-profile">
+          <img src="images/iconmonstr-notification-filled-32 (1).png">
+          <div>
+            <p>Give feedback</p>
+            <a href="#"> Help us to improve the new facebook</a>
+            
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="setting-links">
+          <img src="images/iconmonstr-gear-6-48.png" alt="" class="settings-icon">
+          <a href="#"> Settings and privacy <img src="images/iconmonstr-arrow-63-24 (1).png" alt=""></a>
+
+        </div>
+
+        <div class="setting-links">
+          <img src="images/iconmonstr-help-2-32.png" alt="" class="settings-icon">
+          <a href="#"> Help & support <img src="images/iconmonstr-arrow-63-24 (1).png" alt=""></a>
+
+        </div>
+
+        <div class="setting-links">
+          <img src="images/iconmonstr-weather-115-32 (1).png" alt="" class="settings-icon">
+          <a href="#">Display and accecability <img src="images/iconmonstr-arrow-63-24 (1).png" alt=""></a>
+
+        </div>
+
+        <div class="setting-links">
+          <img src="images/iconmonstr-door-6-32.png" alt="" class="settings-icon">
+          <a href="#"> Logout <img src="images/iconmonstr-arrow-63-24 (1).png" alt=""></a>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+
+
+
+  </nav>
+  <div class="container">
+    <!-- left-sidebar -->
+    <div class="left-sidebar">
+      <div class="imp-links">
+        <a href="#"><img src="images/iconmonstr-newspaper-1-32.png" alt="">Latest News</a>
+        <a href="#"><img src="images/iconmonstr-user-31-32.png" alt="">friends </a>
+        <a href="#"><img src="images/iconmonstr-user-29-48.png" alt="">groups</a>
+        <a href="#"><img src="images/iconmonstr-television-17-32.png" alt="">watch</a>
+        <a href="#"><img src="images/iconmonstr-shopping-cart-3-32.png" alt="">marketplace</a>
+        <a href="#">See More</a>
+
+
+      </div>
+      <div class="shortcut-links">
+        <p>Your shortcuts</p>
+        <a href="#"><img src="images/architecture-g74d784a52_1280.jpg" alt="" width="40px" height="40px">web
+          developer</a>
+        <a href="#"><img src="images/bora-bora-g9c3d37445_1920.jpg" alt="" width="40px" height="40px">Beautiful
+          Island</a>
+        <a href="#"><img src="images/city-g8a340f742_1920.jpg" alt="" width="40px" height="40px">Great City</a>
+        <a href="#"><img src="images/eiffel-tower-ga1638f838_1280.jpg" alt="" width="40px" height="40px">The Eiffle
+          tower</a>
+      </div>
+    </div>
+    <!-- main content -->
+    <div class="main-content">
+
+      <div class="story-gallery">
+        <div class="story story1">
+          <img src="images/iconmonstr-upload-11-32 (1).png" alt="">
+          <p>Post Story</p>
+        </div>
+
+        <div class="story story2">
+          <img src="images/bora-bora-g9c3d37445_1920.jpg" alt="">
+          <p>snow</p>
+        </div>
+
+        <div class="story story3">
+          <img src="images/architecture-g74d784a52_1280.jpg" alt="">
+          <p>kiara</p>
+        </div>
+
+        <div class="story story4">
+          <img src="images/city-gd4a27534f_1920.jpg" alt="">
+          <p>Antonio</p>
+        </div>
+
+        <div class="story story5">
+          <img src="images/house-gf17abdd9e_1920.jpg" alt="">
+          <p>precious</p>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="write-post-container">
+
+        <div class="user-profile">
+          <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+          <div>
+            <p>Akalwu Emmanuel</p>
+            <small>public<i class="fa-sharp fa-solid fa-caret-down"></i></small>
+          </div>
+        </div>
+
+
+
+
+        <div class="post-input-container">
+          <textarea rows="3" placeholder="What on your mind,antonio"></textarea>
+          <div class="add-post-links">
+            <a href="#"><img src="images/iconmonstr-video-camera-1-32.png" alt=""> Live Video </a>
+            <a href="#"><img src="images/iconmonstr-photo-camera-11-24.png" alt=""> photo/Video</a>
+            <a href="#"><img src="images/iconmonstr-smiley-thin-24.png" alt="">Feeling/Activity</a>
+
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+
+          <div class="user-profile">
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+            <div>
+              <p>Akalwu Emmanuel</p>
+              <span>June 24 2021, 13:40 PM</span>
+
+
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+        <p class="post-text">subscribe to our channel <span>@snowysiet102</span> and watch more videos about us on
+          webdevelopment online using ui ux and coding <a href="#">#EasyTutorials</a> <a href="#">#Youtube channel</a>
+        </p>
+        <img src="images/photographer-ge01b833d3_1920.jpg" height="300px" class="post-img">
+        <div class="post-row">
+
+          <div class="activity-icons">
+            <div><img src="images/iconmonstr-thumb-9-24 (1).png" alt=""> 120</div>
+            <div><img src="images/iconmonstr-speech-bubble-30-24.png" alt=""> 50</div>
+            <div><img src="images/iconmonstr-upload-11-32 (1).png" alt=""> 80</div>
+
+          </div>
+          <div class="post-profile-icon">
+
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" alt=""><i
+              class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="post-row">
+
+          <div class="user-profile">
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+            <div>
+              <p>Akalwu Emmanuel</p>
+              <span>Dec 25 2023 2:00 PM</span>
+
+
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+        <p class="post-text">like and subscribe to my photographer website <span>@snowysiet102</span> enjoy the website
+          the moreu use it it would give you a piss of mind <a href="#">#EasyTutorials</a> <a href="#">#Youtube
+            channel</a>
+        </p>
+        <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" height="400px" class="post-img">
+        <div class="post-row">
+
+          <div class="activity-icons">
+            <div><img src="images/iconmonstr-thumb-9-24 (1).png" alt=""> 120</div>
+            <div><img src="images/iconmonstr-speech-bubble-30-24.png" alt=""> 50</div>
+            <div><img src="images/iconmonstr-upload-11-32 (1).png" alt=""> 80</div>
+
+          </div>
+          <div class="post-profile-icon">
+
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" alt=""><i
+              class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="post-row">
+
+          <div class="user-profile">
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+            <div>
+              <p>Akalwu Emmanuel</p>
+              <span>Dec 25 2023 2:00 PM</span>
+
+
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+        <p class="post-text">like and subscribe to my photographer website <span>@snowysiet102</span> enjoy the website
+          the moreu use it it would give you a piss of mind <a href="#">#EasyTutorials</a> <a href="#">#Youtube
+            channel</a>
+        </p>
+        <img src="images/WhatsApp Image 2023-07-26 at 02.23.49.jpeg" height="400px" class="post-img">
+        <div class="post-row">
+
+          <div class="activity-icons">
+            <div><img src="images/iconmonstr-thumb-9-24 (1).png" alt=""> 120</div>
+            <div><img src="images/iconmonstr-speech-bubble-30-24.png" alt=""> 50</div>
+            <div><img src="images/iconmonstr-upload-11-32 (1).png" alt=""> 80</div>
+
+          </div>
+          <div class="post-profile-icon">
+
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" alt=""><i
+              class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="post-row">
+
+          <div class="user-profile">
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+            <div>
+              <p>Akalwu Emmanuel</p>
+              <span>Dec 25 2023 2:00 PM</span>
+
+
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+        <p class="post-text">like and subscribe to my photographer website <span>@snowysiet102</span> enjoy the website
+          the moreu use it it would give you a piss of mind <a href="#">#EasyTutorials</a> <a href="#">#Youtube
+            channel</a>
+        </p>
+        <img src="images/WhatsApp Image 2023-07-23 at 16.27.34.jpeg" height="400px" class="post-img">
+        <div class="post-row">
+
+          <div class="activity-icons">
+            <div><img src="images/iconmonstr-thumb-9-24 (1).png" alt=""> 120</div>
+            <div><img src="images/iconmonstr-speech-bubble-30-24.png" alt=""> 50</div>
+            <div><img src="images/iconmonstr-upload-11-32 (1).png" alt=""> 80</div>
+
+          </div>
+          <div class="post-profile-icon">
+
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" alt=""><i
+              class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="post-row">
+
+          <div class="user-profile">
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png">
+            <div>
+              <p>Akalwu Emmanuel</p>
+              <span>Dec 25 2023 2:00 PM</span>
+
+
+            </div>
+          </div>
+          <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+        <p class="post-text">like and subscribe to my photographer website <span>@snowysiet102</span> enjoy the website
+          the moreu use it it would give you a piss of mind <a href="#">#EasyTutorials</a> <a href="#">#Youtube
+            channel</a>
+        </p>
+        <img src="images/WhatsApp Image 2023-08-11 at 01.07.14.jpeg" height="400px" class="post-img">
+        <div class="post-row">
+
+          <div class="activity-icons">
+            <div><img src="images/iconmonstr-thumb-9-24 (1).png" alt=""> 120</div>
+            <div><img src="images/iconmonstr-speech-bubble-30-24.png" alt=""> 50</div>
+            <div><img src="images/iconmonstr-upload-11-32 (1).png" alt=""> 80</div>
+
+          </div>
+          <div class="post-profile-icon">
+
+            <img src="images/WhatsApp Image 2023-08-11 at 01.07.15 (1).png" alt=""><i
+              class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+
+        </div>
+      </div>
+      
+
+      <button type="button" class="load-more-btn"> Load more</button>
+
+
+
+    </div>
+
+
+
+
+
+    <!-- right-sidebar -->
+    <div class="right-sidebar">
+      <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#">See All</a>
+      </div>
+
+
+      <div class="event">
+        <div class="left-event">
+          <h3>18</h3>
+          <span>March</span>
+        </div>
+        <div class="right-event">
+          <h4>Social Media</h4>
+          <p> <img src="images/iconmonstr-location-pin-thin-32.png" alt="" height="16px"> Willson Tech park</p>
+          <a href="#">More info</a>
+        </div>
+      </div>
+
+
+      <div class="event">
+        <div class="left-event">
+          <h3>22</h3>
+          <span>June</span>
+        </div>
+        <div class="right-event">
+          <h4>Moblie Marketing</h4>
+          <p> <img src="images/iconmonstr-location-pin-thin-32.png" alt="" height="16px">Willson Tech park</p>
+          <a href="#">More info</a>
+        </div>
+      </div>
+
+      <div class="sidebar-title">
+        <h4>Advertisement</h4>
+        <a href="#">Close</a>
+
+      </div>
+      <img src="images/house-gaa28fa59e_1920.jpg" height="110px" alt="" class="sidebar-ads">
+
+      <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide chat</a>
+
+      </div>
+
+
+      <div class="online-list">
+        <div class="online">
+          <img src="images/electrician-g55c960636_1920.jpg">
+        </div>
+        <p>Allison Manson</p>
+      </div>
+
+      <div class="online-list">
+        <div class="online">
+          <img src="images/electrician-gc6dd04504_1920.jpg">
+        </div>
+        <p>Jackson Aston</p>
+      </div>
+
+      <div class="online-list">
+        <div class="online">
+          <img src="images/photographer-ge01b833d3_1920.jpg">
+        </div>
+        <p>Samona Rose </p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Copyright 2023 - New Facebook website for you  </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
